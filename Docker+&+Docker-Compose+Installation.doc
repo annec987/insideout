@@ -1,0 +1,440 @@
+Date: Fri, 31 Mar 2023 09:49:55 +0800 (SGT)
+Message-ID: <142445006.257.1680227395542@VTWLIFELPVER04>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_256_842097239.1680227395539"
+
+------=_Part_256_842097239.1680227395539
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Docker &amp; Docker-Compose Installation</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Docker &amp; Docker-Compose Installation</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h1 id=3D"Docker&amp;DockerComposeInstallation-I.Docker19.03.9">I.Docker 19=
+.03.9</h1>
+<p>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D download =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br><a href=3D"http://mirror.centos.org/cento=
+s/7/extras/x86_64/Packages/container-selinux-2.107-1.el7_6.noarch.rpm" clas=
+s=3D"external-link" rel=3D"nofollow">http://mirror.centos.org/centos/7/extr=
+as/x86_64/Packages/container-selinux-2.107-1.el7_6.noarch.rpm</a><br><a hre=
+f=3D"https://download.docker.com/linux/centos/7/x86_64/stable/Packages/cont=
+ainerd.io-1.2.13-3.2.el7.x86_64.rpm" class=3D"external-link" rel=3D"nofollo=
+w">https://download.docker.com/linux/centos/7/x86_64/stable/Packages/contai=
+nerd.io-1.2.13-3.2.el7.x86_64.rpm</a><br><a href=3D"https://download.docker=
+.com/linux/centos/7/x86_64/stable/Packages/docker-ce-cli-19.03.9-3.el7.x86_=
+64.rpm" class=3D"external-link" rel=3D"nofollow">https://download.docker.co=
+m/linux/centos/7/x86_64/stable/Packages/docker-ce-cli-19.03.9-3.el7.x86_64.=
+rpm</a><br><a href=3D"https://download.docker.com/linux/centos/7/x86_64/sta=
+ble/Packages/docker-ce-19.03.9-3.el7.x86_64.rpm" class=3D"external-link" re=
+l=3D"nofollow">https://download.docker.com/linux/centos/7/x86_64/stable/Pac=
+kages/docker-ce-19.03.9-3.el7.x86_64.rpm</a></p>
+<p><br></p>
+<p>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D script =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>docker install</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo yu=
+m -y localinstall container-selinux-2.107-1.el7_6.noarch.rpm
+sudo yum -y localinstall containerd.io-1.2.13-3.2.el7.x86_64.rpm
+sudo yum -y localinstall docker-ce-cli-19.03.9-3.el7.x86_64.rpm
+sudo yum -y localinstall docker-ce-19.03.9-3.el7.x86_64.rpm
+
+# start the Docker service in case if it is not started automatically after=
+ the installation
+sudo systemctl start docker
+sudo systemctl enable docker
+
+# permission for account dockeradmin
+sudo usermod -aG docker dockeradmin
+
+# https://medium.com/@dryadf66449/%E6%9B%B4%E6%94%B9-docker-%E9%A0%90%E8%A8=
+%AD%E8%B7%AF%E5%BE%91-56abc7695a1e
+# https://blog.sonatype.com/using-nexus-3-as-your-repository-part-3-docker-=
+images
+sudo vi /etc/docker/daemon.json
+
+{
+"insecure-registries": [
+"vtwliferepo.pru.intranet.asia:5000"
+],
+"data-root": "/docker"
+}
+
+sudo cp -a /var/lib/docker/. /docker/
+sudo systemctl restart docker
+
+# admin / admin123
+docker login vtwliferepo.pru.intranet.asia:5000</pre>=20
+</div>
+</div>
+<p><br></p>
+<hr>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h1 id=3D"Docker&amp;DockerComposeInstallation-II.Docker-compose2.10.2">II.=
+ Docker-compose 2.10.2</h1>
+<p>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D download =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br><a href=3D"https://download.docker.com/li=
+nux/centos/7/x86_64/stable/Packages/docker-compose-plugin-2.10.2-3.el7.x86_=
+64.rpm" class=3D"external-link" rel=3D"nofollow">https://download.docker.co=
+m/linux/centos/7/x86_64/stable/Packages/docker-compose-plugin-2.10.2-3.el7.=
+x86_64.rpm</a></p>
+<p>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D script =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>docker-compose install</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo yu=
+m -y localinstall docker-compose-plugin-2.10.2-3.el7.x86_64.rpm
+
+docker compose version</pre>=20
+</div>
+</div>
+<hr class=3D"auto-cursor-target">
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h1 id=3D"Docker&amp;DockerComposeInstallation-III.Upgradedockerengineandcl=
+iversionfrom19to20">III. Upgrade docker engine and cli version from 19 to 2=
+0</h1>
+<p>=E5=9B=A0=E7=82=BAdocker 20=E9=96=8B=E5=A7=8B=E6=9C=89=E6=96=B0=E5=A2=9E=
+docker rootless mode=EF=BC=8C=E6=89=80=E4=BB=A5=E7=82=BA=E4=BA=86=E5=AE=89=
+=E8=A3=9Ddocker-ce 20=E9=9C=80=E8=A6=81=E5=85=88=E5=AE=89=E8=A3=9D=E8=A8=B1=
+=E5=A4=9A=E7=9B=B8=E9=97=9C=E4=BE=9D=E8=B3=B4=EF=BC=8C=E5=90=A6=E5=89=87=E7=
+=84=A1=E6=B3=95=E5=8D=87=E7=B4=9Adocker engine to V20=EF=BC=8C</p>
+<p>=E4=B8=94docker-ce-rootless-extras=E5=AE=89=E8=A3=9D=E6=99=82=E5=8F=88=
+=E9=9C=80=E8=A6=81docker-ce=EF=BC=8C=E6=95=85=E5=A6=82=E6=9E=9C=E6=98=AF=E6=
+=96=B0=E5=AE=89=E8=A3=9D=E6=9C=83=E9=9C=80=E8=A6=81=E5=85=88=E5=AE=89=E8=A3=
+=9Ddocker-ce-19=E5=BE=8C=E6=89=8D=E8=83=BD=E5=AE=89=E8=A3=9Ddocker-ce-rootl=
+ess-extras=EF=BC=8C=E4=B9=8B=E5=BE=8C=E5=86=8D=E7=94=A8docker-ce-20=E5=AE=
+=89=E8=A3=9D=E5=8C=85=E5=B0=87docker engine=E5=8D=87=E4=B8=8A20=E3=80=82</p=
+>
+<p>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D download =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</p>
+<p>1. container-selinux<br><a href=3D"http://mirror.centos.org/centos/7/ext=
+ras/x86_64/Packages/container-selinux-2.119.2-1.911c772.el7_8.noarch.rpm" c=
+lass=3D"external-link" rel=3D"nofollow">http://mirror.centos.org/centos/7/e=
+xtras/x86_64/Packages/container-selinux-2.119.2-1.911c772.el7_8.noarch.rpm<=
+/a></p>
+<p>2. <a href=3D"http://containerd.io" class=3D"external-link" rel=3D"nofol=
+low">containerd.io</a><br><a href=3D"https://download.docker.com/linux/cent=
+os/7/x86_64/stable/Packages/containerd.io-1.6.9-3.1.el7.x86_64.rpm" class=
+=3D"external-link" rel=3D"nofollow">https://download.docker.com/linux/cento=
+s/7/x86_64/stable/Packages/containerd.io-1.6.9-3.1.el7.x86_64.rpm</a></p>
+<p>3. docker-scan-plugin<br><a href=3D"https://download.docker.com/linux/ce=
+ntos/7/x86_64/stable/Packages/docker-scan-plugin-0.21.0-3.el7.x86_64.rpm" s=
+tyle=3D"letter-spacing: 0.0px;" class=3D"external-link" rel=3D"nofollow">ht=
+tps://download.docker.com/linux/centos/7/x86_64/stable/Packages/docker-scan=
+-plugin-0.21.0-3.el7.x86_64.rpm</a></p>
+<p>4. docker-ce-cli<br><a href=3D"https://download.docker.com/linux/centos/=
+7/x86_64/stable/Packages/docker-ce-cli-20.10.9-3.el7.x86_64.rpm" class=3D"e=
+xternal-link" rel=3D"nofollow">https://download.docker.com/linux/centos/7/x=
+86_64/stable/Packages/docker-ce-cli-20.10.9-3.el7.x86_64.rpm</a></p>
+<p>5. slirp4netns-0.4.3-4<br><a href=3D"http://mirror.centos.org/centos/7/e=
+xtras/x86_64/Packages/slirp4netns-0.4.3-4.el7_8.x86_64.rpm" class=3D"extern=
+al-link" rel=3D"nofollow">http://mirror.centos.org/centos/7/extras/x86_64/P=
+ackages/slirp4netns-0.4.3-4.el7_8.x86_64.rpm</a></p>
+<p>6. fuse3-libs<br><a href=3D"https://download-ib01.fedoraproject.org/pub/=
+epel/7/x86_64/Packages/f/fuse3-libs-3.6.1-2.el7.x86_64.rpm" class=3D"extern=
+al-link" rel=3D"nofollow">https://download-ib01.fedoraproject.org/pub/epel/=
+7/x86_64/Packages/f/fuse3-libs-3.6.1-2.el7.x86_64.rpm</a></p>
+<p>7. fuse-overlayfs<br><a href=3D"http://mirror.centos.org/centos/7/extras=
+/x86_64/Packages/fuse-overlayfs-0.7.2-6.el7_8.x86_64.rpm" class=3D"external=
+-link" rel=3D"nofollow">http://mirror.centos.org/centos/7/extras/x86_64/Pac=
+kages/fuse-overlayfs-0.7.2-6.el7_8.x86_64.rpm</a></p>
+<p>8. docker-ce-rootless-extras<br><a style=3D"letter-spacing: 0.0px;" href=
+=3D"https://download.docker.com/linux/centos/7/x86_64/stable/Packages/docke=
+r-ce-rootless-extras-20.10.9-3.el7.x86_64.rpm" class=3D"external-link" rel=
+=3D"nofollow">https://download.docker.com/linux/centos/7/x86_64/stable/Pack=
+ages/docker-ce-rootless-extras-20.10.9-3.el7.x86_64.rpm</a></p>
+<p>9. docker-ce<br><a href=3D"https://download.docker.com/linux/centos/7/x8=
+6_64/stable/Packages/docker-ce-20.10.9-3.el7.x86_64.rpm" class=3D"external-=
+link" rel=3D"nofollow">https://download.docker.com/linux/centos/7/x86_64/st=
+able/Packages/docker-ce-20.10.9-3.el7.x86_64.rpm</a></p>
+<p><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>docker upgrade</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Stop =
+docker daemon
+sudo systemctl stop docker
+
+sudo yum -y localinstall container-selinux-2.119.2-1.911c772.el7_8.noarch.r=
+pm
+sudo yum -y localinstall containerd.io-1.6.9-3.1.el7.x86_64.rpm
+sudo yum -y localinstall docker-scan-plugin-0.21.0-3.el7.x86_64.rpm
+sudo yum -y localinstall docker-ce-cli-20.10.9-3.el7.x86_64.rpm
+
+sudo yum -y localinstall slirp4netns-0.4.3-4.el7_8.x86_64.rpm
+sudo yum -y localinstall fuse3-libs-3.6.1-2.el7.x86_64.rpm
+sudo yum -y localinstall fuse-overlayfs-0.7.2-6.el7_8.x86_64.rpm
+sudo yum -y localinstall docker-ce-rootless-extras-20.10.9-3.el7.x86_64.rpm
+sudo yum -y localinstall docker-ce-20.10.9-3.el7.x86_64.rpm
+
+# Start docker daemon
+sudo systemctl start docker
+# check docker version
+docker version</pre>=20
+</div>
+</div>
+<p><br></p>
+<p><br></p>
+</div>=20
+</div>=20
+</div>=20
+</div>
+    </div>
+</body>
+</html>
+------=_Part_256_842097239.1680227395539--
